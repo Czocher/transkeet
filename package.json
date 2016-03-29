@@ -1,0 +1,40 @@
+{
+  "name": "transkeet",
+  "version": "1.0.0",
+  "description": "Simple JavaScript translation utility without external dependencies.",
+  "main": "src/transkeet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czocher/transkeet.git"
+  },
+  "keywords": [
+    "i18n",
+    "l10n",
+    "translation",
+    "multilanguage",
+    "internationalization"
+  ],
+  "author": "Paweł Jan Czochański <czochanski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/czocher/transkeet/issues"
+  },
+  "homepage": "https://github.com/czocher/transkeet#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^1.1.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-jasmine": "^0.3.8",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs": "^2.1.3",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}
