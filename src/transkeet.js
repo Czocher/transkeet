@@ -9,7 +9,7 @@ var trkt = (function () {
 
   module.apply = function () {
     console.log(document.querySelectorAll("[data-translate]"));
-  }
+  };
 
   return module;
 

@@ -1,7 +1,15 @@
+jasmine.getFixtures().fixturesPath = 'base/test/fixtures';
+
 describe('trkt', function () {
 
   beforeEach(function () {
     spyOn(trkt, 'init').and.callThrough();
+  });
+
+  it('should load fixtures', function () {
+    loadFixtures('simple.test.html');
+    var elem = $('b');
+    expect(elem).toHaveText('Test2');
   });
 
   it('should be defined', function () {
